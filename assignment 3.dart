@@ -1,7 +1,5 @@
+//Question no: 1
 void main(){
-  //PRACTICE FOR LOOP
-    List students = ["ali", "hamza", "taha", "mehmood", "arshad"];
-   for (var i = 0; i < students.length; i+=2) {
-     print (students[i]);
-   }
+  List name = ["akber", "asad", "kamran", "shoaib", "ahsan"];
+  print (name);
 }
