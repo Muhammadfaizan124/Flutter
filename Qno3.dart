@@ -3,7 +3,7 @@ void main() {
   int number = 19;
   bool isPrime = checkPrime(number);
   if(isPrime){
-    print ("$number is prime number");
+    print ("$number is a prime number");
   }
   else{
     print ("$number is not a prime number");
