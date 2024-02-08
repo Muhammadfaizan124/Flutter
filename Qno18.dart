@@ -20,7 +20,7 @@ void main() {
        
     if (usernameinput==id["username"]&&passwordinput==id["password"]) {
       details = true;
-      print("Welcome user " + i.toString());
+      print("User login successful " + i.toString());
       break;
     } else {
       print("Details incorrect for user " + i.toString());
