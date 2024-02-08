@@ -12,8 +12,7 @@
 
 //   if(username==usernameinput && password==passwordinput){
 //      details = true;
-//       print ("welcome");
-//     }else{
+//       print ("welcome");{"username":"faizan","password":"234"}{"username":"faizan","password":"234"}//     }else{
 //       print ("details incorrect");
 //     }
 // }
@@ -22,7 +21,7 @@ import "dart:io";
 
 void main() {
   var username = "muhammad faizan";
-  var password = "abc";
+  var password = "abc124325";
   bool details = false;
 
   while (!details) {
