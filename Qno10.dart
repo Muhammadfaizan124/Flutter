@@ -1,10 +1,9 @@
-//Question no 11
-void main() {
-  for (var i = 1; i <= 5; i++) {
-    for (var x = 1; x <= i; x++) {
-      print("*");
-    }
-    print(""); // Print a newline after each row
+//Question no 10
+void main(){
+  int N = 5;
+  int result = 0;
+  for (var i = 1; i <= N; i++) {
+    result = i*i*i;
+  print ("The cube of $i is $result");
   }
 }
-

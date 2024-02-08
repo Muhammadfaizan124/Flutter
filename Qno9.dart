@@ -1,9 +1,15 @@
-//Question no 10
+//Question no 9
 void main(){
-  int N = 5;
-  int result = 0;
-  for (var i = 1; i <= N; i++) {
-    result = i*i*i;
-  print ("The cube of $i is $result");
+  var name = "radar";
+  var newname = "";
+  for (var i = name.length-1; i >= 0; i--) {
+     newname += name[i];
   }
+  
+  if(newname==name){
+      print ("word is palindrome");
+    }
+    else{
+      print ("word is not palindrome");
+    }
 }
