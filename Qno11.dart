@@ -6,8 +6,6 @@ void main() {
       s+="*";
     }
     print(s);
-    // print("\n"); // Print a newline after each row
     s="";
   }
 }
-//getting problem
