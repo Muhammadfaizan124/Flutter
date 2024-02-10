@@ -1,6 +1,6 @@
-//Question no 15
+//Question no 16
 void main(){
-  var count = 0;
+  
   var p = "";
      //this loop is for row
   for (var i = 1; i < 5; i++) {
@@ -12,8 +12,8 @@ void main(){
 
     //this loop is for columns
     for (var x = 0; x < i; x++) {
-      count++;
-      p += count.toString() + " ";
+      
+      p += "*" + " ";
     }
 
      print (p);
