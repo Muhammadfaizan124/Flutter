@@ -4,7 +4,7 @@ void main(){
   var minimumElement = 1;
   var maximumElement = 1;
 
-for (var i = 0; i <= objects.length; i++) {
+for (var i = 1; i <= objects.length; i++) {
   if (i>maximumElement) {
     maximumElement = i;
   }
